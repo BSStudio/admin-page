@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>BSS Config PC</title>
+</head>
+<style>
+    :root {
+        /* https://www.carbondesignsystem.com/guidelines/color/usage Gray 90 */
+        --ui-background: #262626;
+        --interactive-01: #0f62fe;
+        --text-01: #f4f4f4;
+    }
+    body {
+        display: grid;
+        place-content: center;
+        background-color: var(--ui-background);
+        color: var(--text-01);
+        font-family: Helvetica, sans-serif;
+    }
+    h1 {
+        text-align: center;
+    }
+    a {
+        color: var(--interactive-01);
+    }
+    table {
+        min-width: 400px;
+        border-collapse: collapse;
+        border: 1px solid white;
+    }
+    th, td {
+        border-bottom: 1px solid white;
+    }
+    td, th {
+        padding: 0.125rem 0.5rem;
+    }
+    th {
+        text-align: left;
+    }
+</style>
+<body>
+<img src="bss_logo.svg" alt="BSS logó">
+<h1>Config PC admin oldal</h1>
+<table>
+    <thead>
+        <tr>
+            <th>Eszköz/Szolgáltatás</th>
+            <th>URL</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Példa (Google kereső)</td>
+            <td><a href="https://google.com">https://google.com</a></td>
+        </tr>
+    </tbody>
+</table>
+</body>
+</html>
