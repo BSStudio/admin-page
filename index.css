@@ -1,37 +1,59 @@
+/* Global ----------------------------------------------------------------- */
 :root {
     /* https://www.carbondesignsystem.com/guidelines/color/usage Gray 90 */
-    --ui-background: #262626;
+    --ui-background: #161616;
     --link-01: #78a9ff;
     --text-01: #f4f4f4;
+    --ui-01: #262626;
+    --ui-02: #393939;
 }
 body {
-    display: grid;
-    place-content: center;
+    margin: 0;
     background-color: var(--ui-background);
     color: var(--text-01);
     font-family: Helvetica, sans-serif;
 }
-img.bss-logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-h1 {
-    text-align: center;
-}
 a {
     color: var(--link-01);
 }
+/* Centering -------------------------------------------------------------- */
+body {
+    max-width: 100vw;
+    display: grid;
+    place-content: center;
+}
+body > img, h1 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Logo ------------------------------------------------------------------- */
+img.bss-logo {
+    margin-top: 1rem;
+}
+/* Table ------------------------------------------------------------------ */
 table {
+    display: block;
+    white-space: nowrap;
+    overflow-x: auto;
+    max-width: 100%;
     border-collapse: collapse;
-    border: 1px solid white;
 }
-th, td {
-    border-bottom: 1px solid white;
-}
-td, th {
-    padding: 0.125rem 0.5rem;
+/* Header ----------------------------------------------------------------- */
+thead {
+    background-color: var(--ui-02);
 }
 th {
+    padding: 1rem 1rem 0.125rem 1rem;
     text-align: left;
+}
+/* Content ---------------------------------------------------------------- */
+tbody {
+    background-color: var(--ui-01);
+}
+tbody > tr:nth-child(even) {
+     background-color: var(--ui-02);
+}
+td {
+    padding: 0.25rem 1rem;
 }
