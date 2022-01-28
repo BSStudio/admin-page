@@ -1,0 +1,51 @@
+[
+  {
+    "id": "SW-MAIN-1",
+    "url": "http://192.168.1.11",
+    "name":"MikroTik CSS326-24G-2S+RM",
+    "ip": "192.168.1.11",
+    "manualUrl": "https://docs.com"
+  },
+  {
+    "id": "SW-MAIN-2",
+    "url": "http://192.168.1.12",
+    "name": "NetGear Xy 8270",
+    "ip": "192.168.1.12",
+    "manualUrl": "https://docs.com"
+  },
+  {
+    "id": "SW-BLRAN-1",
+    "url": "http://192.168.1.14",
+    "name": "3Com ASDf 8899",
+    "ip": "192.168.1.14",
+    "manualUrl": "https://docs.com"
+  },
+  {
+    "id": "SW-BLRAN-2",
+    "url": "http://192.168.1.15",
+    "name": "3Com ASDf 8899",
+    "ip": "192.168.1.15",
+    "manualUrl": "https://docs.com"
+  },
+  {
+    "id": "SW-NEXIO",
+    "url": "http://192.168.1.17",
+    "name": "DLink DGS-1210-24",
+    "ip": "192.168.1.17",
+    "manualUrl": "https://docs.com"
+  },
+  {
+    "id": "SW-CAM",
+    "url": "http://192.168.1.18",
+    "name": "Linksys SRW2024",
+    "ip": "192.168.1.18",
+    "manualUrl": "https://docs.com"
+  },
+  {
+    "id": "WLAN-AP",
+    "url": "http://192.168.1.20",
+    "name": "TP-Link Asdf",
+    "ip": "192.168.1.20",
+    "manualUrl": "https://docs.com"
+  }
+]
